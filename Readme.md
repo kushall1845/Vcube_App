@@ -57,3 +57,7 @@ Open your browser and visit:
 ```
 http://<public_IP_ec2>:5000
 ```
+
+## Result
+
+![Result Screenshot](https://github.com/kushall1845/Vcube_App/blob/master/web_server/result.png)
