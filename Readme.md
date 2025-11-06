@@ -49,3 +49,11 @@ pip install -r requirements.txt
 ```
 nohup python3 app.py > app.log 2>&1 &
 ```
+
+## Access the application
+
+Open your browser and visit:
+
+```
+http://<public_IP_ec2>:5000
+```
