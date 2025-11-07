@@ -148,9 +148,9 @@ export APP_PORT=5001
 python3
 ```
 ```
- from app import app, db
- with app.app_context():
-      db.create_all()
+from app import app, db
+with app.app_context():
+    db.create_all()
 ```
 
 To exit 
