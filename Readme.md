@@ -45,20 +45,18 @@ Press y|Y for Yes, any other key for No: n
 
 
 Remove anonymous users? (Press y|Y for Yes, any other key for No) : y
-Success.
+
 
 
 Disallow root login remotely? (Press y|Y for Yes, any other key for No) : y
-Success.
+
 
 .
 Remove test database and access to it? (Press y|Y for Yes, any other key for No) : y
  
 
 Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
-Success.
 
-All done!
 
 If it doesn’t ask for a root password — that’s fine (Ubuntu uses auth_socket authentication).
 
