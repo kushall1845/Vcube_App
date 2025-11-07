@@ -319,6 +319,35 @@ You should see the VCube App interface.
 
 ![Result Screenshot](https://github.com/kushall1845/Vcube_App/blob/master/web_server/result.png?raw=true)
 
+# TO VIEW DATA IN MYSQL DATABASE
+
+login to db server
+
+---
+sudo mysql
+---
+
+---
+USE appdb;
+---
+
+---
+SELECT * FROM user;
+---
+
+You can see something like this 
+---
+mysql> SELECT * FROM user;
++----+-----------------------+---------------+-------------+--------------------------------------------------------------------------------------------------------+
+| id | email                 | name          | course      | password_hash                                                                                          |
++----+-----------------------+---------------+-------------+--------------------------------------------------------------------------------------------------------+
+|  1 | kushal1845@gmail.com  | Kushal Kumar  | Multi cloud | pbkdf2:sha256:260000$nct3GzterLi3m87w$d6f2531f6263b6505dd2dd7969d54a8c04224679c913c6f27190f2ec08978eda |
+|  3 | pavankasula@gmail.com | pavan kasula  | Multi cloud | pbkdf2:sha256:260000$QtTQ1CdosZEuluH2$72022ac82e55660dbd85647583180fb088c3d6374a5bc11efb43f15efcdf94de |
+|  4 | sivasai123@gmail.com  | siva sai teja | Multi cloud | pbkdf2:sha256:260000$dVdNhdrQyqw8kVXQ$43f70e6c42fac54e89b59c15a5eb5a3adee2e2297aa94a4c6e834fb2c9bd3f13 |
++----+-----------------------+---------------+-------------+--------------------------------------------------------------------------------------------------------+
+3 rows in set (0.00 sec)
+---
+
 
 NOTE
 
