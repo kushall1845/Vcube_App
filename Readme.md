@@ -175,6 +175,7 @@ sudo mysql
 USE appdb;
 
 ```
+```
 SHOW TABLES;
 ```
 
