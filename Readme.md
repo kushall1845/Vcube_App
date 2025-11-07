@@ -217,7 +217,7 @@ nohup python3 app.py > app_server.log 2>&1 &
 
 ---
 
-# STEP 3: WEB SERVER SETUP (Frontend + Proxy)
+# STEP 3: WEB SERVER SETUP (Frontend)
 
 ## 1. Install Python
 
@@ -253,6 +253,7 @@ export APP_INTERNAL="http://<APP_SERVER_PRIVATE_IP>:5001"
 export WEB_HOST="0.0.0.0"
 export WEB_PORT=5000
 ```
+(Replace <APP_SERVER_PRIVATE_IP> with your Backend instance’s private IP)
 
 ## 6. Allow port and run frontend in background
 
