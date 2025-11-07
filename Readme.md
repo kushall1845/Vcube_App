@@ -185,7 +185,7 @@ Should show:
 | user |
 ```
 
-## 7. Run app in background
+## 7. Run app in background (APP SERVER)
 
 ```
 nohup python3 app.py > app_server.log 2>&1 &
