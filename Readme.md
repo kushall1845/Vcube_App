@@ -82,6 +82,9 @@ sudo systemctl restart mysql
 
 ```
 sudo mysql
+```
+
+```
 SELECT user, host, plugin FROM mysql.user;
 ```
 
@@ -166,7 +169,12 @@ You can verify on DB server:
 
 ```
 sudo mysql
+```
+
+```
 USE appdb;
+
+```
 SHOW TABLES;
 ```
 
