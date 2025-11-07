@@ -233,7 +233,6 @@ export WEB_PORT=5000
 ## 6. Allow port and run frontend in background
 
 ```
-sudo ufw allow 5000/tcp
 nohup python3 app.py > web_server.log 2>&1 &
 ```
 
