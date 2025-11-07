@@ -28,7 +28,7 @@ sudo systemctl enable mysql
 sudo systemctl start mysql
 ```
 
-## 2. Secure MySQL (optional)
+## 2. Secure MySQL 
 
 ```
 sudo mysql_secure_installation
@@ -146,6 +146,8 @@ export APP_PORT=5001
 
 ```
 python3
+```
+```
  from app import app, db
  with app.app_context():
       db.create_all()
