@@ -157,7 +157,7 @@ double click on enter after pasting
 To exit 
 
 ```
- exit()
+exit()
 ```
 
 If no error, tables are created in appdb.
