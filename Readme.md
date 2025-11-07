@@ -277,7 +277,8 @@ You should see the VCube App interface.
 
 # RESULT SCREENSHOT
 
-[https://github.com/kushall1845/Vcube_App/blob/master/web_server/result.png](https://github.com/kushall1845/Vcube_App/blob/master/web_server/result.png)
+![Result Screenshot](https://github.com/kushall1845/Vcube_App/blob/master/web_server/result.png?raw=true)
+
 
 NOTE
 
