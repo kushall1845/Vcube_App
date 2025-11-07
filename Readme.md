@@ -1,7 +1,7 @@
 
 ---
 
-# VCUBE APP — 3-TIER DEPLOYMENT (WEB SERVER + APP SERVER + MYSQL DB SERVER) IN UBUNTU MACHINES
+# VCUBE APP — 3-TIER DEPLOYMENT (WEB SERVER + APP SERVER + MYSQL DB SERVER)
 
 ---
 
@@ -17,7 +17,7 @@
 
 ---
 
-# STEP 1: DATABASE SERVER SETUP
+# STEP 1: DATABASE SERVER SETUP (MySQL 8+)
 
 ## 1. Install MySQL
 
@@ -319,6 +319,9 @@ You should see the VCube App interface.
 
 ![Result Screenshot](https://github.com/kushall1845/Vcube_App/blob/master/web_server/result.png?raw=true)
 
+# TO VIEW DATABASE
+
+![To view Database](https://github.com/kushall1845/Vcube_App/blob/master/database.png)
 
 
 NOTE
