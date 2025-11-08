@@ -48,6 +48,9 @@ docker network create vcube_network
 You can keep database data in `/home/ubuntu/db_data` for persistence.
 
 ```
+cd ..
+```
+```
 mkdir -p /home/ubuntu/db_data
 cd /home/ubuntu
 ```
