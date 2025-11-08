@@ -82,7 +82,7 @@ docker logs -f mysql_db
 Move into your backend folder:
 
 ```
-cd app_server
+cd /Vcube_App/app_server
 ```
 
 
