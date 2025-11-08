@@ -27,6 +27,9 @@ cd Vcube_App
 
 ## 6. Build front end (web server) image
 ```
+sudo su
+```
+```
 docker build -t web_server ./web_server/
 ```
 
