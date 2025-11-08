@@ -85,13 +85,13 @@ Move into your backend folder:
 cd /home/ubuntu/Vcube_App/app_server
 ```
 
-```
+
 
 
 
 ### Run backend container (mount working dir)
 
-```bash
+```
 docker run -d \
   --name app_server \
   --network vcube_network \
@@ -103,7 +103,7 @@ docker run -d \
 
 ✅ Verify backend is up:
 
-```bash
+```
 docker ps
 docker logs -f app_server
 ```
@@ -126,7 +126,7 @@ cd /home/ubuntu/Vcube_App/web_server
 
 ### Run frontend container (mount working dir)
 
-```bash
+```
 docker run -d \
   --name web_server \
   --network vcube_network \
@@ -138,7 +138,7 @@ docker run -d \
 
 ✅ Check logs:
 
-```bash
+```
 docker logs -f web_server
 ```
 
