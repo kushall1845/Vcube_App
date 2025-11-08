@@ -144,11 +144,10 @@ docker logs -f web_server
 
 ---
 
-## 12. VERIFY END-TO-END CONNECTIVITY
+## 12. Check all containers
 
-### Check all containers
 
-```bash
+```
 docker ps
 ```
 
@@ -163,17 +162,8 @@ xxxxxx         mysql:8.0         0.0.0.0:3306->3306/tcp   mysql_db
 
 ---
 
-### Check internal communication
 
-```bash
-# From app server to DB
-docker exec -it app_server ping mysql_db
 
-# From web server to backend
-docker exec -it web_server curl http://app_server:5001/health
-```
-
-If you get valid responses → ✅ all good.
 
 ---
 
