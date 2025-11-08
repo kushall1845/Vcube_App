@@ -12,6 +12,9 @@ sudo apt install docker.io -y
 
 ## 3. Check Docker Version
 ```
+sudo su
+```
+```
 docker --version
 ```
 
