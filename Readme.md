@@ -77,7 +77,7 @@ docker ps
 
 ---
 
-## 14. To view data in the db container
+## 12. To view data in the db container
 
 ```
 docker exec -it mysql_db mysql -u appuser -p
