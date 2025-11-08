@@ -74,3 +74,32 @@ docker compose up -d --build
 ```
 docker ps
 ```
+
+---
+
+## 14. To view data in the db container
+
+```
+docker exec -it mysql_db mysql -u appuser -p
+```
+it askd for password 
+```
+app123
+```
+
+
+```
+USE appdb;
+```
+
+```
+SELECT * FROM user;
+```
+
+to exit 
+```
+exit
+```
+
+
+---
