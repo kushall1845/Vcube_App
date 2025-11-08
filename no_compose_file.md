@@ -82,7 +82,7 @@ docker logs -f mysql_db
 Move into your backend folder:
 
 ```
-cd /home/ubuntu/app_server
+cd app_server
 ```
 
 
