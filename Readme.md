@@ -58,6 +58,12 @@ git clone -b docker https://github.com/kushall1845/Vcube_App.git
 ```
 cd Vcube_App
 ```
+### You can keep database data in `/home/ubuntu/db_data` for persistence.
+
+```
+mkdir db_data
+
+```
 
 ## 10. Start Your Docker Stack
 ```
