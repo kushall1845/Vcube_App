@@ -184,19 +184,35 @@ Use your server’s public IP:
 | Tier     | URL                                   | Description                 |
 | -------- | ------------------------------------- | --------------------------- |
 | Frontend | `http://<your-public-ip>:5000`        | Flask Web UI                |
-| Backend  | `http://<your-public-ip>:5001/health` | Flask API                   |
-| Database | Port `3306`                           | MySQL accessible via client |
 
 > Make sure ports **5000, 5001, and 3306** are open in your cloud provider’s inbound security rules.
 
 ---
 
-## 14. STOP / CLEANUP (if needed)
+## 14. To view data in the db container
 
-```bash
-docker stop web_server app_server mysql_db
-docker rm web_server app_server mysql_db
 ```
+docker exec -it mysql_db mysql -u appuser -p
+```
+it askd for password 
+```
+app123
+```
+
+
+```
+USE appdb;
+```
+
+```
+SELECT * FROM user;
+```
+
+to exit 
+```
+exit
+```
+
 
 ---
 
