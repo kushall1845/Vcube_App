@@ -106,3 +106,10 @@ exit
 
 
 ---
+
+
+## 13. To clean everything
+
+```
+docker compose down 
+```
