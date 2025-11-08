@@ -82,30 +82,9 @@ docker logs -f mysql_db
 Move into your backend folder:
 
 ```
-cd Vcube_App/app_server
+cd /home/ubuntu/Vcube_App/app_server
 ```
 
-
-
-### Create `.env` file
-
-```
-vim .env
-```
-
-Paste this:
-
-```bash
-DATABASE_URL=mysql://appuser:app123@mysql_db/appdb
-SECRET_KEY=supersecretkey
-APP_HOST=0.0.0.0
-APP_PORT=5001
-```
-
-### Build backend image
-
-```bash
-docker build -t app_server:latest .
 ```
 
 
@@ -139,23 +118,11 @@ You should see something like:
 
 Move into your frontend folder:
 
-```bash
-cd /home/ubuntu/web_server
+```
+cd /home/ubuntu/Vcube_App/web_server
 ```
 
-### Create `.env` file
 
-```bash
-vim .env
-```
-
-Paste this:
-
-```bash
-APP_INTERNAL=http://app_server:5001
-WEB_HOST=0.0.0.0
-WEB_PORT=5000
-```
 
 ### Run frontend container (mount working dir)
 
